@@ -1,0 +1,102 @@
+h1 {
+  text-align:center;
+  padding-top:25px;
+  font-family: Poppins, sans-serif;
+  color:#e3e3e3;
+  font-size:43px;
+}
+
+.personal-info{
+  background:rgba(24, 26, 26, 0.95);
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:30px;
+  color:#e3e3e3;
+  font-family: Poppins, sans-serif;
+  border-radius:10px;
+}
+
+input:not(.checkbox, .radio){
+  display:inline;
+  width:400px;
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color:#e3e3e3; 
+  color:#191919; 
+}
+
+label{
+  display:inline;
+}
+
+body{
+  padding-left:50px;
+  padding-right:50px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin:auto;
+  width:500px;
+  height:500px;
+  background-image:url("https://www.wallpaperup.com/uploads/wallpapers/2014/02/17/257768/beb60b0a756ecec3a86143ccbbab6a1e.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+textarea{
+  display:block;
+  width:400px;
+  height:75px;
+  margin-bottom:20px;
+  margin-top:10px;
+  background-color:#e3e3e3;
+}
+
+.submit{
+  margin-bottom:25px;
+  background-color:#181a1a;
+  color:white;
+  border-color:white;
+  font-family: Poppins, sans-serif;
+  font-size:16px;
+}
+
+.dropdown{
+  display:block;
+  width:400px;
+  margin-top:10px;
+  margin-bottom:15px;
+  background-color:#e3e3e3;
+  color:#191919;
+}
+
+.radio{
+  margin-top:5px;
+  margin-bottom:10px;
+  display:inline;
+}
+
+select{
+  color:#e3e3e3;
+}
+
+.fix{
+  display:inline;
+}
+
+a{
+  display:block;
+}
+
+.checkbox{
+  margin-top:10px;
+  margin-bottom:10px;
+  display:inline;
+}
+
+legend{
+  margin-top:20px;
+}
+
+::placeholder{
+  color:#191919;
+}
