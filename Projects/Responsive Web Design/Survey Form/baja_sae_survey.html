@@ -1,0 +1,79 @@
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <!DOCTYPE html>
+  <meta lang="en" charset=UTF-8>
+  <head>
+    <title>"Baja SAE Survey Form"</title>
+    <h1 id="title">Baja SAE Survey Form</h1>
+    </head>
+    
+    <main>
+      <body>
+<form id="survey-form">
+  <fieldset class="personal-info">
+<label id="name-label">Name<input id="name" type="text" required placeholder="Enter your name"/></label>
+<label id="email-label">Email<input type="email" id="email" required placeholder="Enter your email"/>
+<label id="number-label">Year<input type="number" id="number" min="1" max="4" required placeholder="Ex: 1"/></label>
+<label id="dropdown-label">Sub-Team<select type="dropdown" id="dropdown" class="dropdown" required><option value="" disabled selected hidden>Choose a Sub-Team</option><option value="1">Powertrain</option><option
+value="2">Drivetrain</option><option
+value="3">Aerodynamics</option><option
+value="4">Braking</option><option
+value="5">Electrical</option></select></label>
+<legend class="radio">Are you a STEM Major?</legend>
+  <input type="radio" value="Yes" required name="radio" class="radio">
+  <label for=:"Yes" class="fix">Yes</label>
+  <a><input type="radio" value="2" required name="radio" class="radio"> No</a>
+  </input>
+<legend class="checkbox">
+
+<label id="dropdown2-label">Motivation for Joining<select type="dropdown" id="dropdown" class="dropdown" required><option value="" disabled selected hidden>Choose a Reason</option>
+<option value="1">Resume Builder</option><option
+value="2">Leadership Role</option><option
+value="3">Automotive Interest</option><option
+value="4">Previous Member</option><option
+value="5">Friends</option></select></label>
+  
+   Which areas do you have experience with? (Check all that apply)
+</legend>
+<input name="checkbox" value="1" type="checkbox" class="checkbox"/> Computer Programming
+<a>
+  <input name="checkbox" value="2" type="checkbox" class="checkbox"/> CAD Software 
+  </a>
+<a>
+  <input name="checkbox" value="3" type="checkbox" class="checkbox"/> Automotive Work
+  </a>
+<a>
+<input name="checkbox" value="4" type="checkbox" class="checkbox"/> Simulation Software
+  </a>
+<a>
+  <input name="checkbox" value="5" type="checkbox" class="checkbox"/> Machine Operation
+  </a>
+<a>
+  <input name="checkbox" value="6" type="checkbox" class="checkbox"/> Manufacturing Processes
+  </a>
+<a>
+  <input name="checkbox" value="7" type="checkbox" class="checkbox"/> Engineering Coursework
+  </a>
+<a>
+  <input name="checkbox" value="8" type="checkbox" class="checkbox"/> Previous SAE Competitions
+  </a>
+<a>
+  <input name="checkbox" value="9" type="checkbox" class="checkbox"/> Marketing
+  </a>
+<a>
+  <input name="checkbox" value="10" type="checkbox" class="checkbox"/> Project Management
+  </a>
+<a>
+  <input name="checkbox" value="11" type="checkbox" class="checkbox"/> Other Auto-Building Competitions
+  </a>
+<legend>
+  Any comments or suggestions?
+  <textarea placeholder="Enter your comment here..."></textarea>
+  </legend>
+<input type="submit" id="submit" class="submit"/>
+</form>
+      </body>
+    </main>
+  <footer></footer>
+  <html>
+    <!--maybe add fieldsets to the different sections if too cluttered and to help the css be cleaner -->
