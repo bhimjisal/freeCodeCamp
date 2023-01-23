@@ -1,0 +1,205 @@
+@media (min-width: 68px) and (max-width: 1199px){
+  table,th,td,theader{
+    width:185px;
+    position:sticky
+    border-collapse:collapse;
+    text-align:center;
+    padding-left:20px;
+    font-size:15px;
+  }
+    #table-head{
+      width:50px;
+      font-size:12px;
+    }
+    p,li{
+      font-size:12px;
+     margin-left:5%;
+    }
+    .main-section{
+      padding-left:30%;
+      font-weight:thin;
+      font-size: 0.6em;
+    }
+    }
+}
+
+body{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 0.95em;
+}
+
+nav{
+  position:fixed;
+  left:0;
+  top:0;
+}
+
+a:not(#ref){ 
+  text-decoration:none;
+  color:black;
+  display:block;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse:collapse;
+  position:sticky;
+  left:0;
+  margin-left:0px;
+  padding-left:40px;
+}
+
+td:not(#table-head){
+  display:flex;
+  font-weight:normal;}
+
+p{
+  padding-left:25%;
+  color:#4d4e53;
+}
+
+li{
+  padding-left: 29%;
+}
+
+.indent{
+  margin-left:65px;
+}
+
+table{
+  width:20%;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+th{
+  height:40px;
+  text-align:center;
+}
+
+td{
+  height:45px;
+  text-align:inherit;
+}
+
+theader{
+  text-align:center;
+  font-weight:thin;
+}
+
+a .nav-link{
+  text-align:center;
+}
+
+header:not(.not){
+  padding-left:22%;
+  font-weight:thin;
+  font-size: 1.8em;
+}
+
+code{
+  padding-left:27%;
+  }
+
+.code{
+  padding-left:27%;
+}
+
+.not{
+font-size: 1.8em;
+padding-right:30px;
+}
+
+.center1{
+  position:relative;
+  top:27%;
+  left:25%;
+  font-weight:normal;
+}
+
+.center2{
+  position:relative;
+  top:20%;
+  left:0%;
+}
+
+.center3{
+  position:relative;
+  top:25%;
+  left:14%;
+}
+
+.center4{
+  position:relative;
+  top:30%;
+  left:25%;
+}
+
+.center5{
+  position:relative;
+  top:30%;
+  left:27%;
+}
+
+.center6{
+  position:relative;
+  top:30%;
+  left:15%;
+}
+
+.center7{
+  position:relative;
+  top:31%;
+  left:22%;
+}
+
+.center8{
+  position:relative;
+  top:30%;
+  left:20%;
+}
+
+.center9{
+  position:relative;
+  top:30%;
+  left:27%;
+}
+
+.center10{
+  position:relative;
+  top:30%;
+  left:27%;
+}
+
+.center11{
+  position:relative;
+  top:30%;
+  left:19%;
+}
+
+.center12{
+  position:relative;
+  top:30%;
+  left:22%;
+}
+
+.center13{
+  position:relative;
+  top:30%;
+  left:14%;
+}
+
+.center14{
+  position:relative;
+  top:30%;
+  left:28%;
+}
+
+.fill{
+  background-color:#f7f7f7;
+  width:75%;
+  margin-left:25%;
+  margin-right:25%;
+  border-radius:3%;
+}
